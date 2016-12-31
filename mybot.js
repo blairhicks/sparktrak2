@@ -205,7 +205,7 @@ flint.hears('/release', function(bot, trigger) {
 
 // say bot properties
 flint.hears('/whoami', function(bot, trigger) {
-    bot.say('Hi ' + trigger.personDisplayName + '. I am ' + flint.person.displayName + ' in room ' + trigger.roomTitle + '.  My email is ' + flint.email + '. It is a pleasure to meet you.');
+    bot.say('Hi ' + trigger.personDisplayName + '.  Hope you are well. I am ' + flint.person.displayName + ' in room ' + trigger.roomTitle + '.  My email is ' + flint.email + '. It is a pleasure to meet you.');
 });
 
 
